@@ -7,7 +7,16 @@ authors = [
     { name = "mercury", email = "122353133+kostya1102m@users.noreply.github.com" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "alembic>=1.18.4",
+    "asyncpg>=0.31.0",
+    "fastapi[standard]>=0.134.0",
+    "pydantic>=2.12.5",
+    "pydantic-settings>=2.13.1",
+    "sqlalchemy[asyncio]>=2.0.47",
+    "structlog>=25.5.0",
+    "uvicorn>=0.41.0",
+]
 
 [project.scripts]
 main-backend = "main_backend:main"
