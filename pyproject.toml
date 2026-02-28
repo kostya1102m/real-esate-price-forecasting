@@ -2,10 +2,15 @@
 name = "real-esate-forecasting"
 version = "0.1.0"
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "main-backend",
+]
 
 [tool.uv.workspace]
 members = [
     "main-backend",
     "forecasting-service",
 ]
+
+[tool.uv.sources]
+main-backend = { workspace = true }
