@@ -1,0 +1,25 @@
+version = 1
+revision = 3
+requires-python = ">=3.14"
+
+[manifest]
+members = [
+    "forecasting-service",
+    "main-backend",
+    "real-esate-forecasting",
+]
+
+[[package]]
+name = "forecasting-service"
+version = "0.1.0"
+source = { editable = "forecasting-service" }
+
+[[package]]
+name = "main-backend"
+version = "0.1.0"
+source = { editable = "main-backend" }
+
+[[package]]
+name = "real-esate-forecasting"
+version = "0.1.0"
+source = { virtual = "." }
