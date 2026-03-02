@@ -16,6 +16,7 @@ dependencies = [
     "pydantic>=2.12.5",
     "selenium>=4.41.0",
     "selenium-stealth>=1.0.6",
+    "undetected-chromedriver>=3.5.5",
 ]
 
 [project.scripts]
