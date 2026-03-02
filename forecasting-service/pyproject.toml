@@ -8,9 +8,14 @@ authors = [
 ]
 requires-python = ">=3.14"
 dependencies = [
+    "beautifulsoup4>=4.14.3",
     "cianparser>=1.0.4",
+    "loguru>=0.7.3",
+    "lxml>=6.0.2",
     "pandas>=3.0.1",
+    "pydantic>=2.12.5",
     "selenium>=4.41.0",
+    "selenium-stealth>=1.0.6",
 ]
 
 [project.scripts]
